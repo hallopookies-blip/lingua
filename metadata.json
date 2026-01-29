@@ -1,0 +1,7 @@
+{
+  "name": "Lingua - AI Tongue Health Buddy",
+  "description": "A modern, supportive AI-powered tongue analysis tool that provides health insights and wellness guidance through conversational interactions.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
