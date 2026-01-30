@@ -25,7 +25,7 @@ export const chatWithHealthBuddy = async (
   results: AnalysisResults, 
   language: string = 'en'
 ): Promise<string> => {
-  const model = 'gemini-3-flash-preview';
+  const model = 'gemini-1.5-flash';
   const response = await ai.models.generateContent({
     model: model,
     contents: [{
