@@ -5,7 +5,7 @@ import { AnalysisResults } from "../types";
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 export const translateUIStrings = async (targetLanguage: string, sourceStrings: Record<string, string>): Promise<Record<string, string>> => {
-  const model = 'gemini-3-flash-preview';
+  const model = 'gemini-1.5-flash';
   const response = await ai.models.generateContent({
     model: model,
     contents: [{
