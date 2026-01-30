@@ -49,7 +49,7 @@ export const chatWithHealthBuddy = async (
 };
 
 export const analyzeTongueImage = async (base64Image: string, language: string = 'en'): Promise<AnalysisResults> => {
-  const model = 'gemini-3-pro-preview';
+  const model = 'gemini-1.5-flash';
   const response = await ai.models.generateContent({
     model: model,
     contents: [
